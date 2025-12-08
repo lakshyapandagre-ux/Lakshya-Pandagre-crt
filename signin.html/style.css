@@ -1,0 +1,96 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    }
+
+    .container {
+      background: #fff;
+      padding: 35px 40px;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+      width: 340px;
+      text-align: center;
+    }
+
+    .container h2 {
+      color: #333;
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+
+    .form-group {
+      text-align: left;
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+      transition: 0.3s;
+      outline: none;
+    }
+
+    .form-group input:focus {
+      border-color: #66a6ff;
+      box-shadow: 0 0 5px rgba(102, 166, 255, 0.4);
+    }
+
+    .btn {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+      margin-top: 10px;
+    }
+
+    .btn:hover {
+      background: linear-gradient(135deg, #764ba2, #667eea);
+    }
+
+    .signup-link {
+      margin-top: 15px;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .signup-link a {
+      color: #667eea;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .signup-link a:hover {
+      text-decoration: underline;
+    }
+
+    .error {
+      color: red;
+      font-size: 13px;
+      margin-top: -10px;
+      margin-bottom: 10px;
+      text-align: left;
+    }
