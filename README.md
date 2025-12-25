@@ -1,25 +1,79 @@
-# Lakshya-Pandagre-crt
-This repository is dedicated to Campus Recruitment Training (CRT) for CSIT G Section students, guided by Vivek Bhawsar Sir. It serves as a central hub for notes, practice problems, and resources to prepare for placements and skill development.
+# CRT Learning Repository
 
-👨‍🏫 Instructor
-Faculty: Vivek Bhawsar Sir
+<div align="center">
 
-Focus Areas: Aptitude, Reasoning, Communication Skills, and Technical Interview Preparation
+### > Live Demo
 
-🎯 Objectives
-Strengthen aptitude and logical reasoning skills
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Click_Here-brightgreen?style=for-the-badge)](https://whypriyesh.github.io/CRT-codes/index.html)
 
-Improve technical knowledge (C, DBMS, OS, AIML basics, etc.)
+**[>> View Live Website](https://whypriyesh.github.io/CRT-codes/index.html)**
 
-Enhance soft skills for interviews and group discussions
+</div>
 
-Build confidence for campus placements
+---
 
-📂 Repository Structure
-notes/ → Class notes and study material
+## About This Project
 
-assignments/ → Practice problems and solutions
+This repository documents my web development journey as part of the **Campus Recruitment Training (CRT)** program. It showcases hands-on practice with core frontend technologies, developed under the expert guidance of **Vivek Bhawsar Sir**.
 
-tests/ → Mock tests and quizzes
+The project demonstrates a progressive learning path from basic HTML structure to interactive JavaScript applications, reflecting real-world development practices.
 
-resources/ → Additional references (PDFs, links, guides)
+## Purpose
+
+- **Document** my learning progress in frontend development  
+- **Strengthen** technical fundamentals required for campus placements  
+- **Build** a portfolio of practical web development skills  
+- **Apply** best practices in clean, maintainable code
+
+## Technologies Covered
+
+| Technology | Focus Areas |
+|------------|-------------|
+| **HTML5** | Semantic markup, forms, accessibility, page structure |
+| **CSS3** | Responsive design, Flexbox, Grid, animations, modern layouts |
+| **JavaScript** | DOM manipulation, event handling, ES6+ features, form validation |
+
+## Project Structure
+
+```
+CRT-codes/
+├── index.html          # Main landing page
+├── css/                # Stylesheets
+│   └── auth.css        # Authentication page styles
+├── js/                 # JavaScript files
+│   └── auth.js         # Authentication logic
+└── pages/              # Additional HTML pages
+    ├── login.html      # Login page
+    ├── register.html   # Registration page
+    └── forgot-password.html  # Password recovery
+```
+
+## Key Features
+
+- **Modern UI Design** – Clean and visually appealing interface
+- **Responsive Layout** – Works seamlessly on all devices
+- **Authentication System** – Login, Register, and Forgot Password flows
+- **Interactive Elements** – Dynamic form validation and user feedback
+
+## Learning Outcomes
+
+Through this project, I have gained:
+
+- [x] Strong understanding of web development fundamentals
+- [x] Ability to create responsive and interactive user interfaces
+- [x] Experience with form handling and client-side validation
+- [x] Knowledge of modern CSS techniques and JavaScript best practices
+- [x] Skills in organizing code with a clean folder structure
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/whypriyesh/CRT-codes.git
+   ```
+2. Open `index.html` in any modern browser
+3. Explore the different pages and features
+
+## Acknowledgment
+
+Special thanks to **Vivek Bhawsar Sir** for his invaluable guidance and support throughout the CRT sessions. His mentorship has been instrumental in building a strong foundation in web development.
